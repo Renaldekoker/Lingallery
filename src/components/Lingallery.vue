@@ -411,11 +411,10 @@ export default {
         padding-left: 5px;
         padding-right: 15px;
         height: 100%;
-        display: none;
+        display: block;
         font-size: 20px;
-        color: #fff;
+        color: #719bff;
         cursor: pointer;
-        text-shadow: 0 0 20px rgba(0, 0, 0, 0.75);
         &:before {
           position: relative;
           top: calc(50% - 12px);
@@ -463,7 +462,6 @@ export default {
       .lingallery_thumbnails_content {
         margin-top: 2px;
         width: auto;
-        white-space: nowrap;
         .lingallery_thumbnails_content_elem {
           display: inline-block;
           scroll-snap-align: start;
